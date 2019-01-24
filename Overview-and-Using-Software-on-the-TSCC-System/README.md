@@ -1,4 +1,4 @@
-# TSCC bootcamp material
+# TSCC Bootcamp: Overview and Using Software on the TSCC System	
 
-Readme file for Overview and Using Software on the TSCC System Bootcamp.
+For details and registation information, See: https://www.sdsc.edu/education_and_training/bootcamps.html
 
