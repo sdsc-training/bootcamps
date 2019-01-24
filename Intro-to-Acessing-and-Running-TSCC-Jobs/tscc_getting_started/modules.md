@@ -67,8 +67,10 @@ prepend-path LIBPATH /opt/fftw/3.3.4/intel/mvapich2_ib/lib 
 ```
 
 
-Once you have loaded the modules, you can check the system variables that are available for you to use.
-* To see all variable, run the <b>`env`</b> command. Typically, you will see more than 60 lines containing information such as your login name, shell, your home directory:
+Once you have loaded the modules, you can check the system variables that are available for you to use by running common unix commands:
+* To see all variable, run the <b>`env`</b> command. Typically, you will see more than 60 lines containing information such as your login name, shell, your home directory, and other variables
+* Look at what is in your path:   <b>`echo $PATH`<b>
+* run command <b>`which mpicc`</b> to see location of the compiler command.
 
 
 [Back to Top](#top)
