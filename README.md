@@ -4,7 +4,7 @@ SDSC Bootcamps are training sessions that include different types of training ma
 ## Planned Bootcamps:
 
 | Bootcamp | Date | Machine |
-|---|---|
+|---|---|---|
 | [Introduction to Accessing and Running TSCC Jobs](Intro-to-Acessing-and-Running-TSCC-Jobs) | Jan 24, 2019 | TSCC |
 | [Overview and Using Software on the TSCC System](Overview-and-Using-Software-on-the-TSCC-System) | Feb 28, 2019 | TSCC |
 | Special Topic: Singularity | Mar 21, 2019 | TSCC |
