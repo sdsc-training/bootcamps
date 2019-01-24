@@ -21,7 +21,7 @@ Note: if you have any difficulties completing this task, please contact Institut
 
 ## <a name="obtain-your-comet-account"></a>Obtain your comet account:
 
-To obtain a trial TSCC account see the TSCC user guids at  http://www.sdsc.edu/support/user_guides/comet.html#trial_accounts
+To obtain a trial TSCC account see the TSCC Guide:  https://www.sdsc.edu/support/user_guides/tscc-quick-start.html
 
 [Back to Top](#top)
 <hr>
@@ -34,7 +34,7 @@ The terminal applications are used to connect clients (you and your laptop) to r
 
 SSH provides a secure channel over any network in a client-server architecture. You will be using your laptop to access SDSC’s HPC systems using the secure shell command `ssh`. It is essential that you be able to run secure shell (or a similar connection tool) with X11 forwarding enabled, which allows you to have data encryption and to launch windows applications (e.g. plotting, or a browser).
 
-*NOTE: The `hostname` for TSCC is `comet.sdsc.edu`
+*NOTE: The `hostname` for TSCC is `tscc.sdsc.edu`
 
 <img src="cluster-connection-diagram.png" alt="SSH Connection" width="350px" />
 
@@ -44,11 +44,11 @@ SSH provides a secure channel over any network in a client-server architecture. 
 ## <a name="term-app-mac-users"></a>Mac Users
 For Mac users, the Terminal application is typically used for connections. This is done from the command line:
 
-    ssh -X username@<hostname>
+    ssh -X username@tscc.sdsc.edu
 
  If you are having trouble, try running `ssh` in verbose mode:
 
-     ssh -v -X username@hostname
+     ssh -v -X username@tscc.sdsc.edu
 
 
 [Back to Top](#top)
@@ -66,40 +66,8 @@ Windows users will need to run an X Server and an ssh-like client. [Cygwin](http
 
 ## <a name="term-app-example"></a>Example of a terminal connection:
 ```
-[localuser@localhost]: ssh -X username@comet.sdsc.edu
-Warning: untrusted X11 forwarding setup failed: xauth key data not generated
-Last login: Tue Jul 17 12:15:18 2018 from wireless-169-228-90-10.ucsd.edu
-Rocks 6.2 (SideWinder)
-Profile built 16:44 08-Feb-2016
+[localuser@localhost]: ssh -X username@tscc.sdsc.edu
 
-Kickstarted 17:18 08-Feb-2016
-
-                      WELCOME TO
-      __________________  __  _______________
-        -----/ ____/ __ \/  |/  / ____/_  __/
-          --/ /   / / / / /|_/ / __/   / /
-           / /___/ /_/ / /  / / /___  / /
-           \____/\____/_/  /_/_____/ /_/
-
-*******************************************************************************
-
-[1] Example Scripts: /share/apps/examples
-
-[2] Filesystems:
-
-     (a) Lustre scratch filesystem : /oasis/scratch/comet/$USER/temp_project
-         (Preferred: Scalable large block I/O)
-
-     (b) Compute/GPU node local SSD storage: /scratch/$USER/$SLURM_JOBID
-         (Meta-data intensive jobs, high IOPs)
-
-     (c) Lustre projects filesystem: /oasis/projects/nsf
-
-     (d) /home/$USER : Only for source files, libraries, binaries.
-         *Do not* use for I/O intensive jobs.
-
-[3] TSCC User Guide: http://www.sdsc.edu/support/user_guides/comet.html
-******************************************************************************
 [username@comet-ln2 ~]$
 ```
 
@@ -109,19 +77,19 @@ Kickstarted 17:18 08-Feb-2016
 ## <a name="term-app-dn-info"></a>Getting Domain Name & Host Information
 Each machine you work with will have a `<domain_name>`,  `<hostname>` or `<ip_address>`. You can learn about IP addresses and domain names here: https://computer.howstuffworks.com/dns.htm.
 
-* NOTE: The *DN* (domain name) for TSCC is    `comet.sdsc.edu`
+* NOTE: The *DN* (domain name) for TSCC is    `tscc.sdsc.edu`
 
 You may need to know the physical IP address of the cluster. To do this, run the `nslookup` command from the command line of your terminal window
 ```
-[username@comet:] nslookup comet.sdsc.edu
-Server:		192.168.86.1
-Address:	192.168.86.1#53
+[username@tscc:] nslookup tscc.sdsc.edu
+Server:		198.202.75.26
+Address:	198.202.75.26#53
 
-Non-authoritative answer:
-Name:	comet.sdsc.edu
-Address: 198.202.113.253
-Name:	comet.sdsc.edu
-Address: 198.202.113.252
+Name:	tscc.sdsc.edu
+Address: 132.249.107.88
+Name:	tscc.sdsc.edu
+Address: 132.249.107.90
+
 ```
 
 The IP address is the  line labeled "Address" and for TSCC there are two. YOu can log onto TSCC using either the DN or the IP addresses.
@@ -130,8 +98,8 @@ The IP address is the  line labeled "Address" and for TSCC there are two. YOu ca
 
 <hr>
 
-## <a name="comet-user-guide"></a>TSCC User Guide
+## TSCC User Guide
 
 Please read the TSCC user guide and familiarize yourself with the hardware, file systems, batch job submission, compilers and modules. The guide can be found here:
 
-http://www.sdsc.edu/support/user_guides/comet.html
+https://www.sdsc.edu/support/user_guides/tscc.html
