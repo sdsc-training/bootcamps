@@ -20,7 +20,8 @@
 * Data movement
 * Modules: Managing User Environments
 * Compiling Code
-3._TSCC File systems_ (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_file_systems) ]
+
+3. _TSCC File systems_ (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_file_systems) ]
 * Types: lustre scratch/projects
 * Guidelines for usage 
 4. _Job submission_ (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_job_submission) ]
