@@ -21,7 +21,7 @@
 3._TSCC File systems_ (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_file_systems) ]
 * Types: lustre scratch/projects
 * Guidelines for usage 
-4. Job submission_ (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_job_submission) ]
+4. _Job submission_ (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_job_submission) ]
 * Types of queues  (Subha) 
 * Queue characteristics 
 * BatchQ examples (incl gpu)
