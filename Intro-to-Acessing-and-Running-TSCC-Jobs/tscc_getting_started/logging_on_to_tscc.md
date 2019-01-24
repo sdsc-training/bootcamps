@@ -9,17 +9,17 @@ In this exercise, you must use your SDSC or XSEDE account to log onto the TSCC c
 
 <a name="top">In this document, we will show you how to:
     
-* [Obtain your TSCC account](#obtain-your-comet-account)
+* [Obtain your TSCC account](#obtain-your-tscc-account)
 * [Using the Terminal Application to connect to TSCC](#term-app)
     - [Mac Users](#term-app-mac-users)
     - [Windows Users](#term-app-windows-users)
     - [Terminal Connection Example](#term-app-example)
     - [Getting Domain Name & Host Information](#term-app-dn-info)
-* [Expand your knowledge using TSCC User guide](#comet-user-guide)
+* [Expand your knowledge using TSCC User guide](#tscc-user-guide)
 
 Note: if you have any difficulties completing this task, please contact Institute staff at <consult@sdsc.edu>.
 
-## <a name="obtain-your-comet-account"></a>Obtain your comet account:
+## <a name="obtain-your-tscc-account"></a>Obtain your tscc account:
 
 To obtain a trial TSCC account see the TSCC Guide:  https://www.sdsc.edu/support/user_guides/tscc-quick-start.html
 
@@ -30,11 +30,12 @@ To obtain a trial TSCC account see the TSCC Guide:  https://www.sdsc.edu/support
 
 The terminal applications are used to connect clients (you and your laptop) to remote computers (such as TSCC). See https://en.wikipedia.org/wiki/Secure_Shell for more information. The best known example of using a terminal is for logging in/connecting to a remote computer systems by users. This is called a client-server connection. Terminals are interactive: you type in a command to run, and the outputs are displayed on the terminal. Executing any command is done by typing it and pressing Enter.
 
-<img src="ssh-login-comet.png" alt="SSH Connection" width="300px" />
+<img src="ssh-login.png" alt="SSH Connection" width="300px" />
 
 SSH provides a secure channel over any network in a client-server architecture. You will be using your laptop to access SDSC’s HPC systems using the secure shell command `ssh`. It is essential that you be able to run secure shell (or a similar connection tool) with X11 forwarding enabled, which allows you to have data encryption and to launch windows applications (e.g. plotting, or a browser).
 
 *NOTE: The `hostname` for TSCC is `tscc.sdsc.edu`
+*NOTE: The login node for TSCC is `tscc-login.sdsc.edu`
 
 <img src="cluster-connection-diagram.png" alt="SSH Connection" width="350px" />
 
@@ -65,10 +66,13 @@ Windows users will need to run an X Server and an ssh-like client. [Cygwin](http
 <hr>
 
 ## <a name="term-app-example"></a>Example of a terminal connection:
+using Secure Shell (ssh) commands that may be used to login to the TSCC:
 ```
-[localuser@localhost]: ssh -X username@tscc.sdsc.edu
 
-[username@comet-ln2 ~]$
+
+ssh <your_username>@tscc-login.sdsc.edu
+ssh -l <your_username> tscc-login.sdsc.edu
+
 ```
 
 [Back to Top](#top)
@@ -81,14 +85,15 @@ Each machine you work with will have a `<domain_name>`,  `<hostname>` or `<ip_ad
 
 You may need to know the physical IP address of the cluster. To do this, run the `nslookup` command from the command line of your terminal window
 ```
-[username@tscc:] nslookup tscc.sdsc.edu
+[mthomas@newton:~] nslookup tscc-login.sdsc.edu
 Server:		198.202.75.26
 Address:	198.202.75.26#53
 
-Name:	tscc.sdsc.edu
-Address: 132.249.107.88
+tscc-login.sdsc.edu	canonical name = tscc.sdsc.edu.
 Name:	tscc.sdsc.edu
 Address: 132.249.107.90
+Name:	tscc.sdsc.edu
+Address: 132.249.107.88
 
 ```
 
