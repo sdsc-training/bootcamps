@@ -9,7 +9,7 @@
 
 **9:00 - 10:45 am   Part I: Technical Overview**
 
-1. __Overview__,  Presented by: Dr. Ron Hawkins, Ph.D.) [ [ Download more info ...](tscc_overview) ]
+1. _Overview_,  Presented by: Dr. Ron Hawkins, Ph.D.) [ [ Download more info ...](tscc_overview) ]
 * Overview of condo/hotel, various architectures of condo nodes and gpus, data mover node
 * How do I apply?
 2. Getting Started - TSCC System Environment (Presented by: Mary Thomas, Ph.D.  [ [ Download more info ...](tscc_getting_started) ]
