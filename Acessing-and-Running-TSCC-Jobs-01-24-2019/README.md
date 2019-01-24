@@ -12,7 +12,7 @@
 1. _Overview_,  Presented by: Dr. Ron Hawkins, Ph.D.) [ [ Download more info ...](tscc_overview) ]
 * Overview of condo/hotel, various architectures of condo nodes and gpus, data mover node
 * How do I apply?
-2. Getting Started - TSCC System Environment (Presented by: Mary Thomas, Ph.D.  [ [ Download more info ...](tscc_getting_started) ]
+2. _Getting Started - TSCC System Environment_ (Presented by: Mary Thomas, Ph.D.  [ [ Download more info ...](tscc_getting_started) ]
 * Accounts and allocation 
 ** Logging Onto TSCC
 * Modules: Managing User Environments
@@ -21,14 +21,14 @@
 ** Intel Compiling Examples
 ** PGI Compiling
 ** GNU Compiling
-3. TSCC File systems (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_file_systems) ]
+3._TSCC File systems_ (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_file_systems) ]
 * Types: lustre scratch/projects
 * Guidelines for usage 
 * [more info ...](tscc_file_systems)
-4. Types of Queues  (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_queue_types) ]
+4. _Types of Queues_  (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_queue_types) ]
 * Queue characteristics (max wall time, no of cores, gpu access)
 * Usage policies and restrictions
-5. Job submission (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_job_submission) ]
+5. _Job submission_ (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_job_submission) ]
 * Examples – batch (incl gpu), interactive,
 * Why is my job not running? - Ways to monitor job submission/node availability (lsjobs, yqd etc)
 * Performance issues (all condo nodes don't have ib, what flags need to be set for proper submission? )
