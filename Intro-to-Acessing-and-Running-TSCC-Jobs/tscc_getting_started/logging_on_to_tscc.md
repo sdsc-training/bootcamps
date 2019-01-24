@@ -1,4 +1,4 @@
-# Preparing to Work on SDSC HPC Resources: Accounts and Connecting
+# Preparing to Work on TSCC: Accounts,  Connecting, and Logging on
 
 
 [//]: # " Comment example "
