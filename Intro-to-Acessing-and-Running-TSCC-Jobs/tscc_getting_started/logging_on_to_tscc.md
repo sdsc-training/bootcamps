@@ -1,11 +1,11 @@
-# Preparing to Work on SDSC HPC Resources: Accounts and Connecting
+# Preparing to Work on TSCC: Accounts,  Connecting, and Logging on
 
 
 [//]: # " Comment example "
 
 [//]: # ( Comment2 )
 
-In this exercise, you must use your SDSC or XSEDE account to log onto the Comet cluster. This exercise verifies that your account is working, that your laptop is properly configured, and that your Comet user environment is correctly setup.
+In this exercise, you must use your SDSC or XSEDE account to log onto the TSCC cluster. This exercise verifies that your account is working, that your laptop is properly configured, and that your Comet user environment is correctly setup.
 
 <a name="top">In this document, we will show you how to:
     
