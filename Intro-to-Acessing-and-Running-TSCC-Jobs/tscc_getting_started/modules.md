@@ -1,5 +1,5 @@
 # TSCC Bootcamp: Using Modules
-Note: Taken from  SDSC 2018 Webinar Series Topic: Introduction to Running Jobs on Comet 
+Note: Taken from  SDSC 2018 Webinar Series Topic: Introduction to Running Jobs on TSCC 
 
 ## <a name="modules"></a>Modules: Customizing Your User Environment
 The Environment Modules package provides for dynamic modification of your shell environment. Module commands set, change, or delete environment variables, typically in support of a particular application. They also let the user choose between different versions of the same software or different combinations of related codes. See:
@@ -100,14 +100,14 @@ PATH=/opt/gnu/gcc/bin:/opt/gnu/bin:/opt/mvapich2/intel/ib/bin:/opt/intel/compose
 
 ## <a name="compilers"></a>Compiling & Linking
 
-Comet provides the Intel, Portland Group (PGI), and GNU compilers along with multiple MPI implementations (MVAPICH2, MPICH2, OpenMPI). Most applications will achieve the best performance on Comet using the Intel compilers and MVAPICH2 and the majority of libraries installed on Comet have been built using this combination. 
+TSCC provides the Intel, Portland Group (PGI), and GNU compilers along with multiple MPI implementations (MVAPICH2, MPICH2, OpenMPI). Most applications will achieve the best performance on TSCC using the Intel compilers and MVAPICH2 and the majority of libraries installed on TSCC have been built using this combination. 
 
-Other compilers and versions can be installed by Comet staff on request. For more information, see the user guide:
+Other compilers and versions can be installed by TSCC staff on request. For more information, see the user guide:
 http://www.sdsc.edu/support/user_guides/comet.html#compiling
 
 ### <a name="compilers-supported"></a>Supported Compiler Types
 
-Comet compute nodes support several parallel programming models:
+TSCC compute nodes support several parallel programming models:
 * __MPI__: Default: Intel
    * Default Intel Compiler: intel/2013_sp1.2.144; Versions 2015.2.164 and 2016.3.210 available.
    * Other options: openmpi_ib/1.8.4 (and 1.10.2), Intel MPI, mvapich2_ib/2.1
@@ -145,7 +145,7 @@ module load intel mvapich2_ib
 ```
 For AVX2 support, compile with the -xHOST option. Note that -xHOST alone does not enable aggressive optimization, so compilation with -O3 is also suggested. The -fast flag invokes -xHOST, but should be avoided since it also turns on interprocedural optimization (-ipo), which may cause problems in some instances.
 
-Intel MKL libraries are available as part of the "intel" modules on Comet. Once this module is loaded, the environment variable MKL_ROOT points to the location of the mkl libraries. The MKL link advisor can be used to ascertain the link line (change the MKL_ROOT aspect appropriately).
+Intel MKL libraries are available as part of the "intel" modules on TSCC. Once this module is loaded, the environment variable MKL_ROOT points to the location of the mkl libraries. The MKL link advisor can be used to ascertain the link line (change the MKL_ROOT aspect appropriately).
 
 In the example below, we are working with the HPC examples that can be found in 
 ```
@@ -162,7 +162,7 @@ drwxr-xr-x 16 mthomas use300       16 Aug  5 19:02 ..
 -rw-r--r--  1 mthomas use300      376 Aug  5 19:02 scalapack.sb
 ```
 
-The file `compile.txt` contains the full command to compile the `pdpttr.c` program statically linking 64 bit scalapack libraries on Comet:
+The file `compile.txt` contains the full command to compile the `pdpttr.c` program statically linking 64 bit scalapack libraries on TSCC:
 ```
 [mthomas@comet-14-01:~/comet-examples/PHYS244/MKL] cat compile.txt 
 mpicc -o pdpttr.exe pdpttr.c  -I$MKL_ROOT/include ${MKL_ROOT}/lib/intel64/libmkl_scalapack_lp64.a -Wl,--start-group ${MKL_ROOT}/lib/intel64/libmkl_intel_lp64.a ${MKL_ROOT}/lib/intel64/libmkl_core.a ${MKL_ROOT}/lib/intel64/libmkl_sequential.a -Wl,--end-group ${MKL_ROOT}/lib/intel64/libmkl_blacs_intelmpi_lp64.a -lpthread -lm```
