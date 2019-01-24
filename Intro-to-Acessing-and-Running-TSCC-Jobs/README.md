@@ -12,7 +12,7 @@
 **9:00 - 10:45 am   Part I: Technical Overview**
 
 1. _Overview_,  Presented by: Dr. Ron Hawkins, Ph.D.) [ [ Download more info ...](tscc_overview) ]
-* History & overview  
+* History & Overview  
 * How to join the TSCC cluster
 
 2. _Getting Started - TSCC System Environment_ (Presented by: Mary Thomas, Ph.D.  [ [ Download more info ...](tscc_getting_started) ]
