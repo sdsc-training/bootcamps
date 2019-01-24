@@ -3,14 +3,14 @@
 
 [//]: # ( Comment2 )
 
-When you log on to Comet, your computer operating system will be a Unix shell. \"_A Unix shell is a command-line interpreter or shell that provides a traditional Unix-like command line user interface. This environment is very different from the easy to use GUI interfaces we have all become used in the Windows and MacOS systems_\" (https://en.wikipedia.org/wiki/Unix_shell).
+When you log on to TSCC, your computer operating system will be a Unix shell. \"_A Unix shell is a command-line interpreter or shell that provides a traditional Unix-like command line user interface. This environment is very different from the easy to use GUI interfaces we have all become used in the Windows and MacOS systems_\" (https://en.wikipedia.org/wiki/Unix_shell).
 
 Basic Linux skills are necessary to complete the hands-on exercises. If it’s been a while since you’ve worked in a Linux environment, be sure to reacquaint yourself with the following topic (many of which are demonstrated below)s: copying, listing, deleting and renaming files; using wildcards; navigating directories; changing file permissions; setting environment variables; using common utilities (grep, cat, less, head, sort, tar, gzip). A nice tutorial can be found here http://www.ee.surrey.ac.uk/Teaching/Unix/. You should also be comfortable with one of the standard Linux editors, such as vim, emacs, or nano.
 
 You should also be comfortable with one of the standard Linux editors, such as `vim`, `emacs`, or `nano`.
 
 Notes:
-* For the examples below, we are using the `bash` shell, which is the default shell for new accounts on Comet. For the purposes of following SDSC tutorials and exercises, please do not change the shell.
+* For the examples below, we are using the `bash` shell, which is the default shell for new accounts on TSCC. For the purposes of following SDSC tutorials and exercises, please do not change the shell.
 
 <a name="top">**Examples::**
 * [Basic Environment](#basic-env)
@@ -244,7 +244,7 @@ total 10
 
 ### Copying directories
 
-A common task in computing is to work with examples and collaborator files. Suppose we want to copy the contents of another directory to our local directory. On Comet, there is a large suite of applications that you can work with. In this example, we will copy the GPU application folder. Suppose you are interested in working with one of the files or directories in the /share/apps/examples/ directory.
+A common task in computing is to work with examples and collaborator files. Suppose we want to copy the contents of another directory to our local directory. On TSCC, there is a large suite of applications that you can work with. In this example, we will copy the GPU application folder. Suppose you are interested in working with one of the files or directories in the /share/apps/examples/ directory.
 
 First, we will make a folder to hold comet examples and then `cd` into that new directory. This is done using the `mkdir` command:
 ```
