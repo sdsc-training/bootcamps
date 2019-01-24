@@ -8,10 +8,10 @@
 **8:30  Registration and Continental Breakfast**
 **9:00 - 10:45 am   Part I: Technical Overview **
 
-1. Overview (Dr. Ron Hawkins, Ph.D.) 
+1. Overview (Dr. Ron Hawkins, Ph.D.) [more info ...](tscc_overview)
 * Overview of condo/hotel, various architectures of condo nodes and gpus, data mover node
 * How do I apply?
-2. Getting Started - TSCC System Environment  (Mary Thomas, Ph.D.)  
+2. Getting Started - TSCC System Environment, By Mary Thomas, Ph.D. [more info ...](tscc_getting_started)  
 * Accounts and allocation 
 ** Logging Onto TSCC
 * Modules: Managing User Environments
@@ -20,13 +20,14 @@
 ** Intel Compiling Examples
 ** PGI Compiling
 ** GNU Compiling
-3. File system (Subha Sivagnanam, Ph.D.)  
+3. TSCC File systems, presented by: Subha Sivagnanam, Ph.D. 
 * Types: lustre scratch/projects
-* Guidelines for usage  
-4. Types of queues  (Subha Sivagnanam, Ph.D.)
+* Guidelines for usage 
+* [more info ...](tscc_file_systems)
+4. Types of Queues, By: Subha Sivagnanam, Ph.D.   [more info ...](tscc_X)
 * Queue characteristics (max wall time, no of cores, gpu access)
 * Usage policies and restrictions
-5. Job submission (Subha Sivagnanam, Ph.D.) 
+5. Job submission (Subha Sivagnanam, Ph.D.   [more info ...](tscc_X)
 * Examples – batch (incl gpu), interactive,
 * Why is my job not running? - Ways to monitor job submission/node availability (lsjobs, yqd etc)
 * Performance issues (all condo nodes don't have ib, what flags need to be set for proper submission? )
