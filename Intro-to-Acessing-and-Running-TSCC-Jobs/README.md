@@ -22,9 +22,9 @@
 * Types: lustre scratch/projects
 * Guidelines for usage 
 4. _Job submission_ (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_job_submission) ]
-* Types of queues  (Subha) 
+* Types of queues
 * Queue characteristics 
-* BatchQ examples (incl gpu)
+* BatchQ examples 
 * Why is my job not running?
 
 
