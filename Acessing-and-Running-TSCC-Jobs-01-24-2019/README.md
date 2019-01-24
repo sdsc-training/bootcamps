@@ -13,14 +13,9 @@
 * Overview of condo/hotel, various architectures of condo nodes and gpus, data mover node
 * How do I apply?
 2. _Getting Started - TSCC System Environment_ (Presented by: Mary Thomas, Ph.D.  [ [ Download more info ...](tscc_getting_started) ]
-* Accounts and allocation 
-** Logging Onto TSCC
+* Accounts and allocation / Logging Onto TSCC
 * Modules: Managing User Environments
-** Compiling Code (with examples)
-** Supported Compiler Types
-** Intel Compiling Examples
-** PGI Compiling
-** GNU Compiling
+* Compiling Code
 3._TSCC File systems_ (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_file_systems) ]
 * Types: lustre scratch/projects
 * Guidelines for usage 
@@ -29,8 +24,8 @@
 * Usage policies and restrictions
 5. _Job submission_ (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_job_submission) ]
 * Examples – batch (incl gpu), interactive,
-* Why is my job not running? - Ways to monitor job submission/node availability (lsjobs, yqd etc)
-* Performance issues (all condo nodes don't have ib, what flags need to be set for proper submission? )
+* Why is my job not running? - Ways to monitor job submission/node availability 
+* Performance issues
 * Bundling serial jobs
 * Bundling vs array jobs
 
