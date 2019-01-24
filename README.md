@@ -5,6 +5,6 @@ SDSC Bootcamps are training sessions that include different types of training ma
 | Webinar| Bootcamp Date|
 |---|---|
 | [Acessing and Running TSCC Jobs](Acessing-and-Running-TSCC-Jobs-01-24-2019) | Jan 24 2019 |
-| [Overview and Using Software on the TSCC System | 2/28/19 |
-| [Special Topic: Singularity | 3/21/18 |
-| [Special Topic: Matlab, python, R, other | 4/18/19 |
+| Overview and Using Software on the TSCC System | 2/28/19 |
+| Special Topic: Singularity | 3/21/18 |
+| Special Topic: Matlab, python, R, other | 4/18/19 |
