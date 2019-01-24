@@ -8,10 +8,12 @@
 **8:30  Registration and Continental Breakfast**
 **9:00 - 10:45 am   Part I: Technical Overview **
 
-1. Overview (Dr. Ron Hawkins, Ph.D.) [more info ...](tscc_overview)
+1. Overview (Presented by: Dr. Ron Hawkins, Ph.D.) 
+[more info ...](tscc_overview) )
 * Overview of condo/hotel, various architectures of condo nodes and gpus, data mover node
 * How do I apply?
-2. Getting Started - TSCC System Environment, By Mary Thomas, Ph.D. [more info ...](tscc_getting_started)  
+2. Getting Started - TSCC System Environment (Presented by: Mary Thomas, Ph.D. 
+[more info ...](tscc_getting_started)  
 * Accounts and allocation 
 ** Logging Onto TSCC
 * Modules: Managing User Environments
