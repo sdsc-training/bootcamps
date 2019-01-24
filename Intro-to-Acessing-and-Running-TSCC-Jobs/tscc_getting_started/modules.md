@@ -66,35 +66,11 @@ prepend-path LIBPATH /opt/fftw/3.3.4/intel/mvapich2_ib/lib 
 -------------------------------------------------------------------
 ```
 
-[Back to Top](#top)
-<hr>
 
 Once you have loaded the modules, you can check the system variables that are available for you to use.
 * To see all variable, run the <b>`env`</b> command. Typically, you will see more than 60 lines containing information such as your login name, shell, your home directory:
-```
-[username@comet-ln3 IBRUN]$ env
-HOSTNAME=comet-ln3.sdsc.edu
-INTEL_LICENSE_FILE=/opt/intel/composer_xe_2013_sp1.2.144/licenses:/opt/intel/licenses:/root/intel/licenses
-TERM=xterm-256color
-SHELL=/bin/bash
-GDBSERVER_MIC=/opt/intel/composer_xe_2013_sp1.2.144/debugger/gdb/target/mic/bin/gdbserver
-LOADEDMODULES=intel/2013_sp1.2.144:mvapich2_ib/2.1:gnutools/2.69
-HOME=/home/username
-MPIHOME=/opt/mvapich2/intel/ib
-SDSCHOME=/opt/sdsc
-PYTHONPATH=/opt/sdsc/lib:/opt/sdsc/lib/python2.6/site-packages
-LOGNAME=username
-SSH_CONNECTION=76.176.117.51 58589 198.202.113.252 22
-MODULESHOME=/usr/share/Modules
-INCLUDE=/opt/intel/composer_xe_2013_sp1.2.144/mkl/include
-INTELHOME=/opt/intel/composer_xe_2013_sp1.2.144
-```
 
-To see the value for any of these variables, use the `echo` command:
-```
-[username@comet-ln3 IBRUN]$ echo $PATH
-PATH=/opt/gnu/gcc/bin:/opt/gnu/bin:/opt/mvapich2/intel/ib/bin:/opt/intel/composer_xe_2013_sp1.2.144/bin/intel64:/opt/intel/composer_xe_2013_sp1.2.144/mpirt/bin/intel64:/opt/intel/composer_xe_2013_sp1.2.144/debugger/gdb/intel64_mic/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/ibutils/bin:/usr/java/latest/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/opt/sdsc/bin:/opt/sdsc/sbin:/home/username/bin
-```
+
 [Back to Top](#top)
 <hr>
 
