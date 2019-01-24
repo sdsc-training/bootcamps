@@ -3,7 +3,7 @@ Note: Taken from  SDSC 2018 Webinar Series Topic: Introduction to Running Jobs o
 
 ## <a name="modules"></a>Modules: Customizing Your User Environment
 The Environment Modules package provides for dynamic modification of your shell environment. Module commands set, change, or delete environment variables, typically in support of a particular application. They also let the user choose between different versions of the same software or different combinations of related codes. See:
-http://www.sdsc.edu/support/user_guides/comet.html#modules
+https://www.sdsc.edu/support/user_guides/tscc.html#env-modules
 
 <b> Common module commands:</b>
    
@@ -147,32 +147,7 @@ For AVX2 support, compile with the -xHOST option. Note that -xHOST alone does no
 
 Intel MKL libraries are available as part of the "intel" modules on TSCC. Once this module is loaded, the environment variable MKL_ROOT points to the location of the mkl libraries. The MKL link advisor can be used to ascertain the link line (change the MKL_ROOT aspect appropriately).
 
-In the example below, we are working with the HPC examples that can be found in 
-```
-[mthomas@comet-14-01:~/comet-examples/PHYS244/MKL] pwd
-/home/mthomas/comet-examples/PHYS244/MKL
-[mthomas@comet-14-01:~/comet-examples/PHYS244/MKL] ls -al
-total 25991
-drwxr-xr-x  2 mthomas use300        9 Nov 25 17:20 .
-drwxr-xr-x 16 mthomas use300       16 Aug  5 19:02 ..
--rw-r--r--  1 mthomas use300      325 Aug  5 19:02 compile.txt
--rw-r--r--  1 mthomas use300     6380 Aug  5 19:02 pdpttr.c
--rwxr-xr-x  1 mthomas use300 44825440 Nov 25 16:55 pdpttr.exe
--rw-r--r--  1 mthomas use300      188 Nov 25 16:57 scalapack.20294236.comet-07-27.out
--rw-r--r--  1 mthomas use300      376 Aug  5 19:02 scalapack.sb
-```
 
-The file `compile.txt` contains the full command to compile the `pdpttr.c` program statically linking 64 bit scalapack libraries on TSCC:
-```
-[mthomas@comet-14-01:~/comet-examples/PHYS244/MKL] cat compile.txt 
-mpicc -o pdpttr.exe pdpttr.c  -I$MKL_ROOT/include ${MKL_ROOT}/lib/intel64/libmkl_scalapack_lp64.a -Wl,--start-group ${MKL_ROOT}/lib/intel64/libmkl_intel_lp64.a ${MKL_ROOT}/lib/intel64/libmkl_core.a ${MKL_ROOT}/lib/intel64/libmkl_sequential.a -Wl,--end-group ${MKL_ROOT}/lib/intel64/libmkl_blacs_intelmpi_lp64.a -lpthread -lm```
-```
-
-Run the command:
-```
-[mthomas@comet-14-01:~/comet-examples/PHYS244/MKL] mpicc -o pdpttr.exe pdpttr.c  -I$MKL_ROOT/include ${MKL_ROOT}/lib/intel64/libmkl_scalapack_lp64.a -Wl,--start-group ${MKL_ROOT}/lib/intel64/libmkl_intel_lp64.a ${MKL_ROOT}/lib/intel64/libmkl_core.a ${MKL_ROOT}/lib/intel64/libmkl_sequential.a -Wl,--end-group ${MKL_ROOT}/lib/intel64/libmkl_blacs_intelmpi_lp64.a -lpthread -lm
-```
-For more information on the Intel compilers run: [ifort | icc | icpc] -help
 
 [Back to Top](#top)
 <hr>
