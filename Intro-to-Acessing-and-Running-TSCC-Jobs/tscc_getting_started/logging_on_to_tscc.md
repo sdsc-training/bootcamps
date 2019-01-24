@@ -9,13 +9,13 @@ In this exercise, you must use your SDSC or XSEDE account to log onto the TSCC c
 
 <a name="top">In this document, we will show you how to:
     
-* [Obtain your TSCC account](#obtain-your-comet-account)
+* [Obtain your TSCC account](#obtain-your-tscc-account)
 * [Using the Terminal Application to connect to TSCC](#term-app)
     - [Mac Users](#term-app-mac-users)
     - [Windows Users](#term-app-windows-users)
     - [Terminal Connection Example](#term-app-example)
     - [Getting Domain Name & Host Information](#term-app-dn-info)
-* [Expand your knowledge using TSCC User guide](#comet-user-guide)
+* [Expand your knowledge using TSCC User guide](#tscc-user-guide)
 
 Note: if you have any difficulties completing this task, please contact Institute staff at <consult@sdsc.edu>.
 
