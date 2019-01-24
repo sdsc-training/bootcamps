@@ -1,8 +1,8 @@
 # TSCC Bootcamp: Introduction to Accessing and Running Jobs on the TSCC System
 
-**DATE:**        Thursday, January 24, 2019, 8:30AM - 12:00PM
+**Date:**        Thursday, January 24, 2019, 8:30AM - 12:00PM
 
-**LOCATION:**    SDSC Auditorium (Directions)
+**Location:**    SDSC Auditorium (Directions)
 
 **Description:** This bootcamp will cover everything new users need to know about using the TSCC system. Topics will include:
 
