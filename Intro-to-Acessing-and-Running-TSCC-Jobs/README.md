@@ -25,14 +25,15 @@
 * Modules: Managing User Environments
 * Compiling Code
 
-3. _TSCC File systems_ (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_file_systems) ]
-* Types: lustre scratch/projects
-* Guidelines for usage 
-4. _Job submission_ (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_job_submission) ]
-* Types of queues
-* Queue characteristics 
-* BatchQ examples 
-* Why is my job not running?
+3. _TSCC Files & Jobs (Presented by: Subha Sivagnanam, Ph.D. [ [ Download more info ...](tscc_files_and_jobs) ]
+* TSCC File Systems
+** Types: lustre scratch/projects
+** Guidelines for usage 
+* Job submission
+** Types of queues
+** Queue characteristics 
+** BatchQ examples 
+** Why is my job not running?
 
 
 **11:00 - 12:00 pm     Part II: Q&A/Hands-on session (SDSC Staff)**
