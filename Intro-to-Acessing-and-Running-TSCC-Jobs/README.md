@@ -7,8 +7,10 @@
 **Description:** This bootcamp will cover everything new users need to know about using the TSCC system. Topics will include:
 
 **Notes:**  
-1. For consulting or if you have trouble accessing TSCC, contact TSCC support: tscc-support@ucsd.edu
-2. Join the TSCC Forum:  https://mailman.ucsd.edu/mailman/listinfo/tscc-l ;  Email: tscc-l@mailman.ucsd.edu
+* For consulting, contact TSCC support: tscc-support@ucsd.edu
+* Join the TSCC Forum:  
+     * https://mailman.ucsd.edu/mailman/listinfo/tscc-l ;  
+     * Email: tscc-l@mailman.ucsd.edu
 
 ## Agenda
 **8:30  Registration and Continental Breakfast**
