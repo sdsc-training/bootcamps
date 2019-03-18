@@ -10,15 +10,15 @@ TSCC high-performance ecosystem and includes several useful container examples f
 
 ## Agenda (Tentative):
 
-## Registration/Continental Breakfast:   8:00 - 8:30
-## Presentation: 9:00 am to 11:00 am
+### Registration/Continental Breakfast:   8:00 - 8:30
+### Presentation: 9:00 am to 11:00 am
 * Introduction and Background
 * Introduction to Singularity
 ** Building containers
-**Pulling containers
-**Using existing containers
+** Pulling containers
+** Using existing containers
 * Review of Current Pre-built Containers
 * Important Issues to Consider When Running Singularity on TSCC
 * Examples and Demonstration
 * Summary
-## Q&A session: 11:00 am - 12:00 pm
+### Q&A session: 11:00 am - 12:00 pm
