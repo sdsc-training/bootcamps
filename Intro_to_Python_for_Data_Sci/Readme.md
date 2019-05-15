@@ -21,7 +21,7 @@ During the workshop, we will explain how to install Anaconda on TSCC so that you
 
 ## Agenda (Tentative):
 
-### Registration/Continental Breakfast:   8:00 - 8:30
+### Registration/Continental Breakfast:   8:30 - 9:00
 ### Presentation: 9:00 am to 11:00 am
 * Introduction to Jupyter notebooks
 * Overview of Python programming language
