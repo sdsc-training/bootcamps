@@ -1,4 +1,4 @@
-# Introduction to Introduction to Python for Data Scientists
+# Introduction to Python for Data Scientists
 
 ## Thursday, May 16, 2019, 8:30am to 12:00pm, PST
 ## Presented by: Dr. Robert Sinkovits
