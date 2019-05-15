@@ -30,3 +30,6 @@ During the workshop, we will explain how to install Anaconda on TSCC so that you
 * Installing Anaconda on TSCC
   
 ### Q&A session: 11:00 am - 12:00 pm
+
+Zoom Connection Details:
+https://ucsd.zoom.us/j/5618417736
