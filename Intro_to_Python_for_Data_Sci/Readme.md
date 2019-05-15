@@ -23,11 +23,9 @@ During the workshop, we will explain how to install Anaconda on TSCC so that you
 
 ### Registration/Continental Breakfast:   8:00 - 8:30
 ### Presentation: 9:00 am to 11:00 am
-* Introduction and Background
-** Pulling containers
-** Using existing containers
-* Review of Current Pre-built Containers
-* Important Issues to Consider When Running Singularity on TSCC
-* Examples and Demonstration
-* Summary
+* Brief Overview of the Python programming language 
+* Python packages commonly used by data scientists
+* How to install Anaconda on TSCC
+* How to convert Python notebooks to standalone Python code suitable for batch computing
+ 
 ### Q&A session: 11:00 am - 12:00 pm
