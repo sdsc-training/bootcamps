@@ -23,9 +23,10 @@ During the workshop, we will explain how to install Anaconda on TSCC so that you
 
 ### Registration/Continental Breakfast:   8:00 - 8:30
 ### Presentation: 9:00 am to 11:00 am
-* Brief Overview of the Python programming language 
-* Python packages commonly used by data scientists
-* How to install Anaconda on TSCC
-* How to convert Python notebooks to standalone Python code suitable for batch computing
- 
+* Introduction to Jupyter notebooks
+* Overview of Python programming language
+* Commonly used Python packages for data science: numpy, pandas, matplolib, scikit-learn
+* Converting Jupyter notebooks to standalone Python code
+* Installing Anaconda on TSCC
+  
 ### Q&A session: 11:00 am - 12:00 pm
