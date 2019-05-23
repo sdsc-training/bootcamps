@@ -1,4 +1,4 @@
-# Introduction to Introduction to Python for Data Scientists
+# Introduction to Python for Data Scientists
 
 ## Thursday, May 16, 2019, 8:30am to 12:00pm, PST
 ## Presented by: Dr. Robert Sinkovits
@@ -21,7 +21,7 @@ During the workshop, we will explain how to install Anaconda on TSCC so that you
 
 ## Agenda (Tentative):
 
-### Registration/Continental Breakfast:   8:00 - 8:30
+### Registration/Continental Breakfast:   8:30 - 9:00 am
 ### Presentation: 9:00 am to 11:00 am
 * Introduction to Jupyter notebooks
 * Overview of Python programming language
@@ -30,3 +30,6 @@ During the workshop, we will explain how to install Anaconda on TSCC so that you
 * Installing Anaconda on TSCC
   
 ### Q&A session: 11:00 am - 12:00 pm
+
+Zoom Connection Details:
+https://ucsd.zoom.us/j/5618417736
